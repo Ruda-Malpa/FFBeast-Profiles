@@ -1,0 +1,139 @@
+{
+    "effects": {
+        "ailerons": {
+            "simple_spring": {
+                "active": true,
+                "curve1": [
+                    {
+                        "in": -100,
+                        "out": -1
+                    },
+                    {
+                        "in": -80,
+                        "out": -0.800000011920929
+                    },
+                    {
+                        "in": -60,
+                        "out": -0.6000000238418579
+                    },
+                    {
+                        "in": -40,
+                        "out": -0.4000000059604645
+                    },
+                    {
+                        "in": -20,
+                        "out": -0.20000000298023224
+                    },
+                    {
+                        "in": 0,
+                        "out": 0
+                    },
+                    {
+                        "in": 20,
+                        "out": 0.20000000298023224
+                    },
+                    {
+                        "in": 40,
+                        "out": 0.4000000059604645
+                    },
+                    {
+                        "in": 60,
+                        "out": 0.6000000238418579
+                    },
+                    {
+                        "in": 80,
+                        "out": 0.800000011920929
+                    },
+                    {
+                        "in": 100,
+                        "out": 1
+                    }
+                ],
+                "dampening_contribution": 0,
+                "total_effect_strength": 2
+            },
+            "smart_damper": {
+                "active": true,
+                "dynamic_dampening": 0,
+                "static_dampening": 50,
+                "total_effect_strength": 100
+            }
+        },
+        "elevator": {
+            "simple_spring": {
+                "active": true,
+                "curve1": [
+                    {
+                        "in": -100,
+                        "out": 0
+                    },
+                    {
+                        "in": -80,
+                        "out": 1.5
+                    },
+                    {
+                        "in": -60,
+                        "out": 3
+                    },
+                    {
+                        "in": -40,
+                        "out": 4.5
+                    },
+                    {
+                        "in": -20,
+                        "out": 6
+                    },
+                    {
+                        "in": 0,
+                        "out": 7.5
+                    },
+                    {
+                        "in": 20,
+                        "out": 9
+                    },
+                    {
+                        "in": 40,
+                        "out": 10.5
+                    },
+                    {
+                        "in": 60,
+                        "out": 12
+                    },
+                    {
+                        "in": 80,
+                        "out": 13.5
+                    },
+                    {
+                        "in": 100,
+                        "out": 15
+                    }
+                ],
+                "dampening_contribution": 0,
+                "total_effect_strength": 2
+            },
+            "smart_damper": {
+                "active": true,
+                "dynamic_dampening": 0,
+                "static_dampening": 50,
+                "total_effect_strength": 100
+            }
+        },
+        "rudder": {
+        },
+        "shaker": {
+        },
+        "throttle_collective": {
+        }
+    },
+    "metadata": {
+        "comment": "",
+        "flight_data_source": 0,
+        "flight_module": "Test 12kg",
+        "version": {
+            "release_major": 25,
+            "release_minor": 1,
+            "release_patch": 4,
+            "release_type": 1
+        }
+    }
+}

@@ -1,0 +1,1321 @@
+{
+    "effects": {
+        "ailerons": {
+            "airbrake_shaker": {
+                "active": true,
+                "base_frequency": 18,
+                "curve1": [
+                    {
+                        "in": 0,
+                        "out": 0
+                    },
+                    {
+                        "in": 100,
+                        "out": 10
+                    },
+                    {
+                        "in": 200,
+                        "out": 22
+                    },
+                    {
+                        "in": 300,
+                        "out": 35
+                    },
+                    {
+                        "in": 400,
+                        "out": 50
+                    },
+                    {
+                        "in": 500,
+                        "out": 65
+                    },
+                    {
+                        "in": 600,
+                        "out": 78
+                    },
+                    {
+                        "in": 700,
+                        "out": 88
+                    },
+                    {
+                        "in": 800,
+                        "out": 94
+                    },
+                    {
+                        "in": 900,
+                        "out": 98
+                    },
+                    {
+                        "in": 1000,
+                        "out": 100
+                    }
+                ],
+                "curve2": [
+                    {
+                        "in": 0,
+                        "out": 0
+                    },
+                    {
+                        "in": 10,
+                        "out": 10
+                    },
+                    {
+                        "in": 20,
+                        "out": 20
+                    },
+                    {
+                        "in": 30,
+                        "out": 30
+                    },
+                    {
+                        "in": 40,
+                        "out": 42
+                    },
+                    {
+                        "in": 50,
+                        "out": 55
+                    },
+                    {
+                        "in": 60,
+                        "out": 68
+                    },
+                    {
+                        "in": 70,
+                        "out": 78
+                    },
+                    {
+                        "in": 80,
+                        "out": 86
+                    },
+                    {
+                        "in": 90,
+                        "out": 94
+                    },
+                    {
+                        "in": 100,
+                        "out": 100
+                    }
+                ],
+                "frequency_mode": 0,
+                "max_frequency": 32,
+                "total_effect_strength": 4
+            },
+            "airspeed_spring": {
+                "active": true,
+                "curve1": [
+                    {
+                        "in": 0,
+                        "out": 0
+                    },
+                    {
+                        "in": 100,
+                        "out": 1
+                    },
+                    {
+                        "in": 200,
+                        "out": 4
+                    },
+                    {
+                        "in": 300,
+                        "out": 9
+                    },
+                    {
+                        "in": 400,
+                        "out": 16
+                    },
+                    {
+                        "in": 500,
+                        "out": 22
+                    },
+                    {
+                        "in": 600,
+                        "out": 29
+                    },
+                    {
+                        "in": 700,
+                        "out": 35
+                    },
+                    {
+                        "in": 800,
+                        "out": 40
+                    },
+                    {
+                        "in": 900,
+                        "out": 44
+                    },
+                    {
+                        "in": 1000,
+                        "out": 48
+                    }
+                ],
+                "dampening_contribution": 100,
+                "total_effect_strength": 50
+            },
+            "direct_x": {
+                "active": true,
+                "force": 0,
+                "periodic": 10,
+                "total_effect_strength": 100,
+                "trimmer": 100
+            },
+            "flaps_shaker": {
+                "active": true,
+                "base_frequency": 14,
+                "curve1": [
+                    {
+                        "in": 0,
+                        "out": 0
+                    },
+                    {
+                        "in": 100,
+                        "out": 10
+                    },
+                    {
+                        "in": 200,
+                        "out": 25
+                    },
+                    {
+                        "in": 250,
+                        "out": 40
+                    },
+                    {
+                        "in": 300,
+                        "out": 55
+                    },
+                    {
+                        "in": 350,
+                        "out": 70
+                    },
+                    {
+                        "in": 400,
+                        "out": 80
+                    },
+                    {
+                        "in": 450,
+                        "out": 88
+                    },
+                    {
+                        "in": 500,
+                        "out": 94
+                    },
+                    {
+                        "in": 550,
+                        "out": 98
+                    },
+                    {
+                        "in": 600,
+                        "out": 100
+                    }
+                ],
+                "curve2": [
+                    {
+                        "in": 0,
+                        "out": 0
+                    },
+                    {
+                        "in": 10,
+                        "out": 5
+                    },
+                    {
+                        "in": 20,
+                        "out": 12
+                    },
+                    {
+                        "in": 30,
+                        "out": 22
+                    },
+                    {
+                        "in": 40,
+                        "out": 32
+                    },
+                    {
+                        "in": 50,
+                        "out": 45
+                    },
+                    {
+                        "in": 60,
+                        "out": 58
+                    },
+                    {
+                        "in": 70,
+                        "out": 70
+                    },
+                    {
+                        "in": 80,
+                        "out": 82
+                    },
+                    {
+                        "in": 90,
+                        "out": 92
+                    },
+                    {
+                        "in": 100,
+                        "out": 100
+                    }
+                ],
+                "frequency_mode": 0,
+                "max_frequency": 22,
+                "total_effect_strength": 1
+            },
+            "on_ground_shaker": {
+                "active": true,
+                "base_frequency": 12,
+                "curve1": [
+                    {
+                        "in": 0,
+                        "out": 0
+                    },
+                    {
+                        "in": 20,
+                        "out": 5
+                    },
+                    {
+                        "in": 40,
+                        "out": 12
+                    },
+                    {
+                        "in": 60,
+                        "out": 22
+                    },
+                    {
+                        "in": 80,
+                        "out": 34
+                    },
+                    {
+                        "in": 100,
+                        "out": 48
+                    },
+                    {
+                        "in": 130,
+                        "out": 62
+                    },
+                    {
+                        "in": 160,
+                        "out": 75
+                    },
+                    {
+                        "in": 200,
+                        "out": 88
+                    },
+                    {
+                        "in": 240,
+                        "out": 95
+                    },
+                    {
+                        "in": 280,
+                        "out": 100
+                    }
+                ],
+                "frequency_mode": 0,
+                "max_frequency": 32,
+                "total_effect_strength": 5
+            },
+            "simple_spring": {
+                "active": true,
+                "curve1": [
+                    {
+                        "in": -100,
+                        "out": -8
+                    },
+                    {
+                        "in": -80,
+                        "out": -6.400000095367432
+                    },
+                    {
+                        "in": -60,
+                        "out": -4.800000190734863
+                    },
+                    {
+                        "in": -40,
+                        "out": -3.200000047683716
+                    },
+                    {
+                        "in": -20,
+                        "out": -1.600000023841858
+                    },
+                    {
+                        "in": 0,
+                        "out": 0
+                    },
+                    {
+                        "in": 20,
+                        "out": 1.600000023841858
+                    },
+                    {
+                        "in": 40,
+                        "out": 3.200000047683716
+                    },
+                    {
+                        "in": 60,
+                        "out": 4.800000190734863
+                    },
+                    {
+                        "in": 80,
+                        "out": 6.400000095367432
+                    },
+                    {
+                        "in": 100,
+                        "out": 8
+                    }
+                ],
+                "dampening_contribution": 40,
+                "total_effect_strength": 75
+            },
+            "smart_damper": {
+                "active": true,
+                "dynamic_dampening": 80,
+                "static_dampening": 30,
+                "total_effect_strength": 100
+            }
+        },
+        "elevator": {
+            "airbrake_shaker": {
+                "active": true,
+                "base_frequency": 16,
+                "curve1": [
+                    {
+                        "in": 0,
+                        "out": 0
+                    },
+                    {
+                        "in": 100,
+                        "out": 10
+                    },
+                    {
+                        "in": 200,
+                        "out": 22
+                    },
+                    {
+                        "in": 300,
+                        "out": 35
+                    },
+                    {
+                        "in": 400,
+                        "out": 50
+                    },
+                    {
+                        "in": 500,
+                        "out": 65
+                    },
+                    {
+                        "in": 600,
+                        "out": 78
+                    },
+                    {
+                        "in": 700,
+                        "out": 88
+                    },
+                    {
+                        "in": 800,
+                        "out": 94
+                    },
+                    {
+                        "in": 900,
+                        "out": 98
+                    },
+                    {
+                        "in": 1000,
+                        "out": 100
+                    }
+                ],
+                "curve2": [
+                    {
+                        "in": 0,
+                        "out": 0
+                    },
+                    {
+                        "in": 10,
+                        "out": 10
+                    },
+                    {
+                        "in": 20,
+                        "out": 20
+                    },
+                    {
+                        "in": 30,
+                        "out": 30
+                    },
+                    {
+                        "in": 40,
+                        "out": 42
+                    },
+                    {
+                        "in": 50,
+                        "out": 55
+                    },
+                    {
+                        "in": 60,
+                        "out": 68
+                    },
+                    {
+                        "in": 70,
+                        "out": 78
+                    },
+                    {
+                        "in": 80,
+                        "out": 86
+                    },
+                    {
+                        "in": 90,
+                        "out": 94
+                    },
+                    {
+                        "in": 100,
+                        "out": 100
+                    }
+                ],
+                "frequency_mode": 0,
+                "max_frequency": 30,
+                "total_effect_strength": 7
+            },
+            "airspeed_spring": {
+                "active": true,
+                "curve1": [
+                    {
+                        "in": 0,
+                        "out": 0
+                    },
+                    {
+                        "in": 100,
+                        "out": 2
+                    },
+                    {
+                        "in": 200,
+                        "out": 8
+                    },
+                    {
+                        "in": 300,
+                        "out": 18
+                    },
+                    {
+                        "in": 400,
+                        "out": 30
+                    },
+                    {
+                        "in": 500,
+                        "out": 44
+                    },
+                    {
+                        "in": 600,
+                        "out": 58
+                    },
+                    {
+                        "in": 700,
+                        "out": 72
+                    },
+                    {
+                        "in": 800,
+                        "out": 83
+                    },
+                    {
+                        "in": 900,
+                        "out": 92
+                    },
+                    {
+                        "in": 1000,
+                        "out": 100
+                    }
+                ],
+                "dampening_contribution": 100,
+                "total_effect_strength": 50
+            },
+            "aoa_spring": {
+                "active": true,
+                "curve1": [
+                    {
+                        "in": 0,
+                        "out": 0
+                    },
+                    {
+                        "in": 8,
+                        "out": 0
+                    },
+                    {
+                        "in": 10,
+                        "out": 4
+                    },
+                    {
+                        "in": 11,
+                        "out": 12
+                    },
+                    {
+                        "in": 12,
+                        "out": 28
+                    },
+                    {
+                        "in": 13,
+                        "out": 55
+                    },
+                    {
+                        "in": 14,
+                        "out": 80
+                    },
+                    {
+                        "in": 15,
+                        "out": 95
+                    },
+                    {
+                        "in": 16,
+                        "out": 100
+                    },
+                    {
+                        "in": 18,
+                        "out": 100
+                    },
+                    {
+                        "in": 20,
+                        "out": 100
+                    }
+                ],
+                "dampening_contribution": 30,
+                "total_effect_strength": 0
+            },
+            "direct_x": {
+                "active": true,
+                "force": 0,
+                "periodic": 15,
+                "total_effect_strength": 100,
+                "trimmer": 100
+            },
+            "elevator_weight": {
+                "active": true,
+                "total_effect_strength": 8
+            },
+            "flaps_shaker": {
+                "active": true,
+                "base_frequency": 14,
+                "curve1": [
+                    {
+                        "in": 0,
+                        "out": 0
+                    },
+                    {
+                        "in": 100,
+                        "out": 10
+                    },
+                    {
+                        "in": 200,
+                        "out": 25
+                    },
+                    {
+                        "in": 250,
+                        "out": 40
+                    },
+                    {
+                        "in": 300,
+                        "out": 55
+                    },
+                    {
+                        "in": 350,
+                        "out": 70
+                    },
+                    {
+                        "in": 400,
+                        "out": 80
+                    },
+                    {
+                        "in": 450,
+                        "out": 88
+                    },
+                    {
+                        "in": 500,
+                        "out": 94
+                    },
+                    {
+                        "in": 550,
+                        "out": 98
+                    },
+                    {
+                        "in": 600,
+                        "out": 100
+                    }
+                ],
+                "curve2": [
+                    {
+                        "in": 0,
+                        "out": 0
+                    },
+                    {
+                        "in": 10,
+                        "out": 5
+                    },
+                    {
+                        "in": 20,
+                        "out": 12
+                    },
+                    {
+                        "in": 30,
+                        "out": 22
+                    },
+                    {
+                        "in": 40,
+                        "out": 32
+                    },
+                    {
+                        "in": 50,
+                        "out": 45
+                    },
+                    {
+                        "in": 60,
+                        "out": 58
+                    },
+                    {
+                        "in": 70,
+                        "out": 70
+                    },
+                    {
+                        "in": 80,
+                        "out": 82
+                    },
+                    {
+                        "in": 90,
+                        "out": 92
+                    },
+                    {
+                        "in": 100,
+                        "out": 100
+                    }
+                ],
+                "frequency_mode": 0,
+                "max_frequency": 22,
+                "total_effect_strength": 2
+            },
+            "g_force_spring": {
+                "active": true,
+                "curve1": [
+                    {
+                        "in": 0,
+                        "out": 0
+                    },
+                    {
+                        "in": 1,
+                        "out": 0
+                    },
+                    {
+                        "in": 1.5,
+                        "out": 1
+                    },
+                    {
+                        "in": 2,
+                        "out": 4
+                    },
+                    {
+                        "in": 2.5,
+                        "out": 8
+                    },
+                    {
+                        "in": 3,
+                        "out": 14
+                    },
+                    {
+                        "in": 3.5,
+                        "out": 20
+                    },
+                    {
+                        "in": 4,
+                        "out": 26
+                    },
+                    {
+                        "in": 5,
+                        "out": 35
+                    },
+                    {
+                        "in": 6,
+                        "out": 42
+                    },
+                    {
+                        "in": 7,
+                        "out": 48
+                    }
+                ],
+                "dampening_contribution": 30,
+                "total_effect_strength": 20
+            },
+            "gear_shaker": {
+                "active": true,
+                "base_frequency": 12,
+                "curve1": [
+                    {
+                        "in": 0,
+                        "out": 0
+                    },
+                    {
+                        "in": 100,
+                        "out": 8
+                    },
+                    {
+                        "in": 200,
+                        "out": 20
+                    },
+                    {
+                        "in": 250,
+                        "out": 35
+                    },
+                    {
+                        "in": 300,
+                        "out": 50
+                    },
+                    {
+                        "in": 350,
+                        "out": 65
+                    },
+                    {
+                        "in": 400,
+                        "out": 78
+                    },
+                    {
+                        "in": 450,
+                        "out": 86
+                    },
+                    {
+                        "in": 500,
+                        "out": 92
+                    },
+                    {
+                        "in": 550,
+                        "out": 96
+                    },
+                    {
+                        "in": 600,
+                        "out": 100
+                    }
+                ],
+                "curve2": [
+                    {
+                        "in": 0,
+                        "out": 0
+                    },
+                    {
+                        "in": 10,
+                        "out": 10
+                    },
+                    {
+                        "in": 20,
+                        "out": 20
+                    },
+                    {
+                        "in": 30,
+                        "out": 30
+                    },
+                    {
+                        "in": 40,
+                        "out": 40
+                    },
+                    {
+                        "in": 50,
+                        "out": 50
+                    },
+                    {
+                        "in": 60,
+                        "out": 60
+                    },
+                    {
+                        "in": 70,
+                        "out": 70
+                    },
+                    {
+                        "in": 80,
+                        "out": 80
+                    },
+                    {
+                        "in": 90,
+                        "out": 90
+                    },
+                    {
+                        "in": 100,
+                        "out": 100
+                    }
+                ],
+                "frequency_mode": 0,
+                "max_frequency": 22,
+                "total_effect_strength": 2
+            },
+            "landing_jolt": {
+                "active": true,
+                "base_frequency": 18,
+                "curve1": [
+                    {
+                        "in": 0,
+                        "out": 0
+                    },
+                    {
+                        "in": 30,
+                        "out": 15
+                    },
+                    {
+                        "in": 60,
+                        "out": 28
+                    },
+                    {
+                        "in": 90,
+                        "out": 40
+                    },
+                    {
+                        "in": 120,
+                        "out": 52
+                    },
+                    {
+                        "in": 150,
+                        "out": 62
+                    },
+                    {
+                        "in": 180,
+                        "out": 72
+                    },
+                    {
+                        "in": 210,
+                        "out": 82
+                    },
+                    {
+                        "in": 240,
+                        "out": 90
+                    },
+                    {
+                        "in": 270,
+                        "out": 96
+                    },
+                    {
+                        "in": 300,
+                        "out": 100
+                    }
+                ],
+                "curve2": [
+                    {
+                        "in": 0,
+                        "out": 0
+                    },
+                    {
+                        "in": 0.5,
+                        "out": 8
+                    },
+                    {
+                        "in": 1,
+                        "out": 18
+                    },
+                    {
+                        "in": 1.5,
+                        "out": 30
+                    },
+                    {
+                        "in": 2,
+                        "out": 45
+                    },
+                    {
+                        "in": 2.5,
+                        "out": 60
+                    },
+                    {
+                        "in": 3,
+                        "out": 75
+                    },
+                    {
+                        "in": 3.5,
+                        "out": 85
+                    },
+                    {
+                        "in": 4,
+                        "out": 92
+                    },
+                    {
+                        "in": 4.5,
+                        "out": 97
+                    },
+                    {
+                        "in": 5,
+                        "out": 100
+                    }
+                ],
+                "frequency_mode": 0,
+                "max_frequency": 28,
+                "total_effect_strength": 70
+            },
+            "on_ground_shaker": {
+                "active": true,
+                "base_frequency": 10,
+                "curve1": [
+                    {
+                        "in": 0,
+                        "out": 0
+                    },
+                    {
+                        "in": 20,
+                        "out": 5
+                    },
+                    {
+                        "in": 40,
+                        "out": 12
+                    },
+                    {
+                        "in": 60,
+                        "out": 22
+                    },
+                    {
+                        "in": 80,
+                        "out": 34
+                    },
+                    {
+                        "in": 100,
+                        "out": 48
+                    },
+                    {
+                        "in": 130,
+                        "out": 62
+                    },
+                    {
+                        "in": 160,
+                        "out": 75
+                    },
+                    {
+                        "in": 200,
+                        "out": 88
+                    },
+                    {
+                        "in": 240,
+                        "out": 95
+                    },
+                    {
+                        "in": 280,
+                        "out": 100
+                    }
+                ],
+                "frequency_mode": 0,
+                "max_frequency": 32,
+                "total_effect_strength": 8
+            },
+            "simple_spring": {
+                "active": true,
+                "curve1": [
+                    {
+                        "in": -100,
+                        "out": -12
+                    },
+                    {
+                        "in": -80,
+                        "out": -9.600000381469727
+                    },
+                    {
+                        "in": -60,
+                        "out": -7.199999809265137
+                    },
+                    {
+                        "in": -40,
+                        "out": -4.800000190734863
+                    },
+                    {
+                        "in": -20,
+                        "out": -2.4000000953674316
+                    },
+                    {
+                        "in": 0,
+                        "out": 0
+                    },
+                    {
+                        "in": 20,
+                        "out": 2.4000000953674316
+                    },
+                    {
+                        "in": 40,
+                        "out": 4.800000190734863
+                    },
+                    {
+                        "in": 60,
+                        "out": 7.199999809265137
+                    },
+                    {
+                        "in": 80,
+                        "out": 9.600000381469727
+                    },
+                    {
+                        "in": 100,
+                        "out": 12
+                    }
+                ],
+                "dampening_contribution": 40,
+                "total_effect_strength": 100
+            },
+            "smart_damper": {
+                "active": true,
+                "dynamic_dampening": 130,
+                "static_dampening": 45,
+                "total_effect_strength": 100
+            }
+        },
+        "rudder": {
+            "airspeed_spring": {
+                "active": true,
+                "curve1": [
+                    {
+                        "in": 0,
+                        "out": 0
+                    },
+                    {
+                        "in": 100,
+                        "out": 1
+                    },
+                    {
+                        "in": 200,
+                        "out": 5
+                    },
+                    {
+                        "in": 300,
+                        "out": 12
+                    },
+                    {
+                        "in": 400,
+                        "out": 22
+                    },
+                    {
+                        "in": 500,
+                        "out": 32
+                    },
+                    {
+                        "in": 600,
+                        "out": 42
+                    },
+                    {
+                        "in": 700,
+                        "out": 52
+                    },
+                    {
+                        "in": 800,
+                        "out": 62
+                    },
+                    {
+                        "in": 900,
+                        "out": 70
+                    },
+                    {
+                        "in": 1000,
+                        "out": 75
+                    }
+                ],
+                "dampening_contribution": 100,
+                "total_effect_strength": 100
+            },
+            "landing_jolt": {
+                "active": true,
+                "base_frequency": 18,
+                "curve1": [
+                    {
+                        "in": 0,
+                        "out": 0
+                    },
+                    {
+                        "in": 30,
+                        "out": 15
+                    },
+                    {
+                        "in": 60,
+                        "out": 28
+                    },
+                    {
+                        "in": 90,
+                        "out": 40
+                    },
+                    {
+                        "in": 120,
+                        "out": 52
+                    },
+                    {
+                        "in": 150,
+                        "out": 62
+                    },
+                    {
+                        "in": 180,
+                        "out": 72
+                    },
+                    {
+                        "in": 210,
+                        "out": 82
+                    },
+                    {
+                        "in": 240,
+                        "out": 90
+                    },
+                    {
+                        "in": 270,
+                        "out": 96
+                    },
+                    {
+                        "in": 300,
+                        "out": 100
+                    }
+                ],
+                "curve2": [
+                    {
+                        "in": 0,
+                        "out": 0
+                    },
+                    {
+                        "in": 0.5,
+                        "out": 10
+                    },
+                    {
+                        "in": 1,
+                        "out": 20
+                    },
+                    {
+                        "in": 1.5,
+                        "out": 32
+                    },
+                    {
+                        "in": 2,
+                        "out": 45
+                    },
+                    {
+                        "in": 2.5,
+                        "out": 58
+                    },
+                    {
+                        "in": 3,
+                        "out": 72
+                    },
+                    {
+                        "in": 3.5,
+                        "out": 82
+                    },
+                    {
+                        "in": 4,
+                        "out": 90
+                    },
+                    {
+                        "in": 4.5,
+                        "out": 96
+                    },
+                    {
+                        "in": 5,
+                        "out": 100
+                    }
+                ],
+                "frequency_mode": 0,
+                "max_frequency": 28,
+                "total_effect_strength": 60
+            },
+            "on_ground_shaker": {
+                "active": true,
+                "base_frequency": 10,
+                "curve1": [
+                    {
+                        "in": 0,
+                        "out": 0
+                    },
+                    {
+                        "in": 20,
+                        "out": 5
+                    },
+                    {
+                        "in": 40,
+                        "out": 12
+                    },
+                    {
+                        "in": 60,
+                        "out": 22
+                    },
+                    {
+                        "in": 80,
+                        "out": 34
+                    },
+                    {
+                        "in": 100,
+                        "out": 48
+                    },
+                    {
+                        "in": 130,
+                        "out": 62
+                    },
+                    {
+                        "in": 160,
+                        "out": 75
+                    },
+                    {
+                        "in": 200,
+                        "out": 88
+                    },
+                    {
+                        "in": 240,
+                        "out": 95
+                    },
+                    {
+                        "in": 280,
+                        "out": 100
+                    }
+                ],
+                "frequency_mode": 0,
+                "max_frequency": 32,
+                "total_effect_strength": 8
+            },
+            "simple_spring": {
+                "active": true,
+                "curve1": [
+                    {
+                        "in": -100,
+                        "out": -25
+                    },
+                    {
+                        "in": -80,
+                        "out": -20
+                    },
+                    {
+                        "in": -60,
+                        "out": -15
+                    },
+                    {
+                        "in": -40,
+                        "out": -10
+                    },
+                    {
+                        "in": -20,
+                        "out": -5
+                    },
+                    {
+                        "in": 0,
+                        "out": 0
+                    },
+                    {
+                        "in": 20,
+                        "out": 5
+                    },
+                    {
+                        "in": 40,
+                        "out": 10
+                    },
+                    {
+                        "in": 60,
+                        "out": 15
+                    },
+                    {
+                        "in": 80,
+                        "out": 20
+                    },
+                    {
+                        "in": 100,
+                        "out": 25
+                    }
+                ],
+                "dampening_contribution": 50,
+                "total_effect_strength": 100
+            },
+            "smart_damper": {
+                "active": true,
+                "dynamic_dampening": 90,
+                "static_dampening": 40,
+                "total_effect_strength": 100
+            }
+        },
+        "shaker": {
+        },
+        "throttle_collective": {
+        }
+    },
+    "metadata": {
+        "comment": "MSFS 2024 Airliner profile (Boeing 737 / Airbus A320 baseline).",
+        "flight_data_source": 3,
+        "flight_module": "MSFS Airliner",
+        "version": {
+            "release_major": 25,
+            "release_minor": 1,
+            "release_patch": 4,
+            "release_type": 1
+        }
+    }
+}

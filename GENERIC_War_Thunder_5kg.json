@@ -1,0 +1,159 @@
+{
+    "effects": {
+        "ailerons": {
+            "direct_x": {
+                "active": true,
+                "force": 20,
+                "periodic": 3,
+                "total_effect_strength": 50,
+                "trimmer": 100
+            },
+            "simple_spring": {
+                "active": true,
+                "curve1": [
+                    {
+                        "in": -100,
+                        "out": -1
+                    },
+                    {
+                        "in": -80,
+                        "out": -0.800000011920929
+                    },
+                    {
+                        "in": -60,
+                        "out": -0.6000000238418579
+                    },
+                    {
+                        "in": -40,
+                        "out": -0.4000000059604645
+                    },
+                    {
+                        "in": -20,
+                        "out": -0.20000000298023224
+                    },
+                    {
+                        "in": 0,
+                        "out": 0
+                    },
+                    {
+                        "in": 20,
+                        "out": 0.20000000298023224
+                    },
+                    {
+                        "in": 40,
+                        "out": 0.4000000059604645
+                    },
+                    {
+                        "in": 60,
+                        "out": 0.6000000238418579
+                    },
+                    {
+                        "in": 80,
+                        "out": 0.800000011920929
+                    },
+                    {
+                        "in": 100,
+                        "out": 1
+                    }
+                ],
+                "dampening_contribution": 0,
+                "total_effect_strength": 2
+            },
+            "smart_damper": {
+                "active": true,
+                "dynamic_dampening": 0,
+                "static_dampening": 55,
+                "total_effect_strength": 100
+            }
+        },
+        "elevator": {
+            "direct_x": {
+                "active": true,
+                "force": 35,
+                "periodic": 3,
+                "total_effect_strength": 50,
+                "trimmer": 100
+            },
+            "simple_spring": {
+                "active": true,
+                "curve1": [
+                    {
+                        "in": -100,
+                        "out": 0
+                    },
+                    {
+                        "in": -80,
+                        "out": 0.5
+                    },
+                    {
+                        "in": -60,
+                        "out": 1
+                    },
+                    {
+                        "in": -40,
+                        "out": 1.5
+                    },
+                    {
+                        "in": -20,
+                        "out": 2
+                    },
+                    {
+                        "in": 0,
+                        "out": 2.5
+                    },
+                    {
+                        "in": 20,
+                        "out": 3
+                    },
+                    {
+                        "in": 40,
+                        "out": 3.5
+                    },
+                    {
+                        "in": 60,
+                        "out": 4
+                    },
+                    {
+                        "in": 80,
+                        "out": 4.5
+                    },
+                    {
+                        "in": 100,
+                        "out": 5
+                    }
+                ],
+                "dampening_contribution": 0,
+                "total_effect_strength": 3
+            },
+            "smart_damper": {
+                "active": true,
+                "dynamic_dampening": 0,
+                "static_dampening": 80,
+                "total_effect_strength": 100
+            },
+            "trim": {
+                "active": true,
+                "force_release_allowed": false,
+                "trim_buttons_allowed": true,
+                "trim_reset_allowed": true
+            }
+        },
+        "rudder": {
+        },
+        "shaker": {
+        },
+        "throttle_collective": {
+        }
+    },
+    "metadata": {
+        "comment": "",
+        "flight_data_source": 0,
+        "flight_module": "War Thunder 5kg",
+        "version": {
+            "release_major": 25,
+            "release_minor": 1,
+            "release_patch": 4,
+            "release_type": 1
+        }
+    }
+}
